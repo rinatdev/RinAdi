@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Inter;
+    background-color: grey;
+}
+
+
+form{
+}
+.form-container{
+    width: 346px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 54px 27px 27px 22px;
+    border-radius: 6px;
+}
+.form-title{
+    font-weight: Bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+label, input{
+    display: block;
+}
+label{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+label img{
+    margin-right: 12px;
+}
+input{
+    color: #807C7C;
+    border: none;
+    border-bottom: 1px solid #9A9898;
+    width: 346px;
+}
+.form-btn{
+    background-color: #2D2D2D;
+    color: white;
+    padding: 7px 99px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+.form-line{
+    width: 350px;
+    height: 1px;
+    background: #9A9898;
+    margin-top: 12px;
+}
+.another-enter--title{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 20px;
+    text-align: center;
+}
+.another-enter--links{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 40px;
+}
+.form-login-btn{
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    border: 2px solid #2D2D2D;
+    border-radius: 25px;
+    padding: 2px 157px;
+    margin-top: 8px;
+    background-color: transparent;
+}
