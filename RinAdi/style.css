@@ -10,14 +10,14 @@ body{
 }
 
 
-form{
-}
+
 .form-container{
     width: 346px;
     margin: 0 auto;
     background-color: white;
     padding: 54px 27px 27px 22px;
     border-radius: 6px;
+    margin-top: 100px;
 }
 .form-title{
     font-weight: Bold;
@@ -47,7 +47,8 @@ input{
 .form-btn{
     background-color: #2D2D2D;
     color: white;
-    padding: 7px 99px;
+    padding: 7px 0;
+    width: 100%;
     margin-top: 20px;
     border: none;
     border-radius: 25px;
@@ -73,12 +74,16 @@ input{
     gap: 40px;
 }
 .form-login-btn{
+    display: block;
+    text-align: center;
     font-weight: bold;
     font-size: 13px;
-    line-height: 16px;
     border: 2px solid #2D2D2D;
     border-radius: 25px;
-    padding: 2px 157px;
+    padding: 2px 0;
+    width: 100%;
     margin-top: 8px;
     background-color: transparent;
+    text-decoration: none;
+    color: #363535;
 }
